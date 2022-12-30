@@ -1,0 +1,38 @@
+This directory summarizes the studies done
+to determine the depencence of the neural network
+predictive power on the optimizer used by keras
+
+A plot is made of the ratio: correct_predictions / (total images )
+versus each of the focal plane plots, for each of the optimizers
+
+
+
+In the keras_optics.py script, the following parameters were used:
+
+fixed parameters:
+------------------
+num_filters = 12
+filters_size = 6
+pool_size    = 6
+activation='softmax'
+input_image=(200,200,1)
+epochs=100
+
+optimizer='adam'
+loss='categorical_crossentropy'
+metrics=['accuracy']
+
+
+variable parameters:
+---------------------
+optimizer='RMSprop'   # 'adam'(default), 'RMSprop',  'SGD', 'Nadam',
+
+
+
+Directory Structure:
+--------------------
+./Study1 : optics weights files and plots using 'RMSprop'
+./Study2 : optics weights files and plots using 'SGD'
+./Study3 : optics weights files and plots using 'Nadam'
+
+Results:

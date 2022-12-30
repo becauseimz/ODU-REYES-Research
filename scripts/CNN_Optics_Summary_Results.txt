@@ -1,0 +1,409 @@
+----------------------
+Hall C, Jefferson Lab 
+----------------------
+
+Suumary of Results for: 
+SHMS Optics Convolutional Neural Network (CNN) Studies
+
+
+2D Optics Correlation: xfp_vs_xpfp
+---------------------------------
+Input Test Image : 1
+Predicted Tunes [Q1: 1.0000, Q2: 0.9500, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 2
+Predicted Tunes [Q1: 1.0000, Q2: 1.0000, Q3: 1.0200]
+True Tunes      [Q1: 1.0000, Q2: 0.9650, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0350, dQ3: 0.0200]
+---> INVALID PREDICTION 
+
+Input Test Image : 3
+Predicted Tunes [Q1: 1.0000, Q2: 0.9700, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9750, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 4
+Predicted Tunes [Q1: 1.0000, Q2: 0.9900, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9850, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 5
+Predicted Tunes [Q1: 1.0000, Q2: 0.9900, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9950, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 6
+Predicted Tunes [Q1: 1.0000, Q2: 1.0100, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0150, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 7
+Predicted Tunes [Q1: 1.0000, Q2: 1.0300, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0250, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 8
+Predicted Tunes [Q1: 1.0000, Q2: 1.0000, Q3: 0.9800]
+True Tunes      [Q1: 1.0000, Q2: 1.0350, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0350, dQ3: 0.0200]
+---> INVALID PREDICTION 
+
+Input Test Image : 9
+Predicted Tunes [Q1: 1.0000, Q2: 1.0500, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0450, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 10
+Predicted Tunes [Q1: 1.0000, Q2: 1.0500, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+=======================
+ACCURACY: 8.00 / 10.00 = 0.8000  
+=======================
+
+
+2D Optics Correlation: xfp_vs_yfp
+---------------------------------
+Input Test Image : 1
+Predicted Tunes [Q1: 1.0000, Q2: 0.9500, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 2
+Predicted Tunes [Q1: 1.0000, Q2: 0.9600, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9650, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 3
+Predicted Tunes [Q1: 1.0000, Q2: 0.9800, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9750, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 4
+Predicted Tunes [Q1: 1.0000, Q2: 0.9900, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9850, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 5
+Predicted Tunes [Q1: 1.0200, Q2: 1.0000, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9950, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0200, dQ2: 0.0050, dQ3: 0.0000]
+---> INVALID PREDICTION 
+
+Input Test Image : 6
+Predicted Tunes [Q1: 1.0000, Q2: 1.0200, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0150, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 7
+Predicted Tunes [Q1: 1.0000, Q2: 1.0200, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0250, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 8
+Predicted Tunes [Q1: 1.0000, Q2: 1.0300, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0350, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 9
+Predicted Tunes [Q1: 1.0000, Q2: 1.0500, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0450, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 10
+Predicted Tunes [Q1: 1.0000, Q2: 1.0500, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+=======================
+ACCURACY: 9.00 / 10.00 = 0.9000  
+=======================
+
+
+2D Optics Correlation: xfp_vs_ypfp
+---------------------------------
+Input Test Image : 1
+Predicted Tunes [Q1: 1.0000, Q2: 0.9600, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 2
+Predicted Tunes [Q1: 1.0000, Q2: 0.9700, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9650, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 3
+Predicted Tunes [Q1: 1.0000, Q2: 0.9800, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9750, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 4
+Predicted Tunes [Q1: 1.0000, Q2: 0.9900, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9850, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 5
+Predicted Tunes [Q1: 1.0000, Q2: 1.0000, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9950, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 6
+Predicted Tunes [Q1: 1.0000, Q2: 1.0100, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0150, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 7
+Predicted Tunes [Q1: 1.0000, Q2: 1.0200, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0250, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 8
+Predicted Tunes [Q1: 1.0000, Q2: 1.0300, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0350, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 9
+Predicted Tunes [Q1: 1.0000, Q2: 1.0400, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0450, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 10
+Predicted Tunes [Q1: 1.0000, Q2: 1.0500, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+=======================
+ACCURACY: 10.00 / 10.00 = 1.0000  
+=======================
+
+
+2D Optics Correlation: xpfp_vs_yfp
+---------------------------------
+Input Test Image : 1
+Predicted Tunes [Q1: 1.0000, Q2: 0.9900, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0350, dQ3: 0.0000]
+---> INVALID PREDICTION 
+
+Input Test Image : 2
+Predicted Tunes [Q1: 1.0000, Q2: 0.9600, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9650, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 3
+Predicted Tunes [Q1: 1.0000, Q2: 0.9800, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9750, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 4
+Predicted Tunes [Q1: 1.1000, Q2: 1.0000, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9850, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.1000, dQ2: 0.0150, dQ3: 0.0000]
+---> INVALID PREDICTION 
+
+Input Test Image : 5
+Predicted Tunes [Q1: 1.0000, Q2: 1.0000, Q3: 1.0200]
+True Tunes      [Q1: 1.0000, Q2: 0.9950, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0200]
+---> INVALID PREDICTION 
+
+Input Test Image : 6
+Predicted Tunes [Q1: 1.0000, Q2: 1.0000, Q3: 0.9200]
+True Tunes      [Q1: 1.0000, Q2: 1.0150, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0150, dQ3: 0.0800]
+---> INVALID PREDICTION 
+
+Input Test Image : 7
+Predicted Tunes [Q1: 1.0000, Q2: 1.0200, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0250, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 8
+Predicted Tunes [Q1: 1.0000, Q2: 1.0300, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0350, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 9
+Predicted Tunes [Q1: 1.0000, Q2: 1.0400, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0450, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 10
+Predicted Tunes [Q1: 1.0000, Q2: 1.0500, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+=======================
+ACCURACY: 6.00 / 10.00 = 0.6000  
+=======================
+
+
+2D Optics Correlation: xpfp_vs_ypfp
+---------------------------------
+Input Test Image : 1
+Predicted Tunes [Q1: 1.0000, Q2: 0.9600, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 2
+Predicted Tunes [Q1: 1.0000, Q2: 0.9600, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9650, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 3
+Predicted Tunes [Q1: 1.0000, Q2: 0.9700, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9750, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 4
+Predicted Tunes [Q1: 1.0000, Q2: 0.9900, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9850, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 5
+Predicted Tunes [Q1: 1.0000, Q2: 0.9900, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9950, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 6
+Predicted Tunes [Q1: 1.0000, Q2: 1.0100, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0150, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 7
+Predicted Tunes [Q1: 1.0000, Q2: 1.0300, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0250, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 8
+Predicted Tunes [Q1: 1.0000, Q2: 1.0300, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0350, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 9
+Predicted Tunes [Q1: 1.0000, Q2: 1.0400, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0450, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 10
+Predicted Tunes [Q1: 1.0000, Q2: 1.0500, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+=======================
+ACCURACY: 10.00 / 10.00 = 1.0000  
+=======================
+
+
+2D Optics Correlation: ypfp_vs_yfp
+---------------------------------
+Input Test Image : 1
+Predicted Tunes [Q1: 1.0000, Q2: 0.9600, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 2
+Predicted Tunes [Q1: 1.0000, Q2: 0.9600, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9650, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 3
+Predicted Tunes [Q1: 1.0000, Q2: 0.9800, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 0.9750, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 4
+Predicted Tunes [Q1: 1.0000, Q2: 1.0000, Q3: 1.0800]
+True Tunes      [Q1: 1.0000, Q2: 0.9850, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0150, dQ3: 0.0800]
+---> INVALID PREDICTION 
+
+Input Test Image : 5
+Predicted Tunes [Q1: 1.0000, Q2: 1.0000, Q3: 1.0200]
+True Tunes      [Q1: 1.0000, Q2: 0.9950, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0200]
+---> INVALID PREDICTION 
+
+Input Test Image : 6
+Predicted Tunes [Q1: 1.0000, Q2: 1.0000, Q3: 0.9200]
+True Tunes      [Q1: 1.0000, Q2: 1.0150, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0150, dQ3: 0.0800]
+---> INVALID PREDICTION 
+
+Input Test Image : 7
+Predicted Tunes [Q1: 1.0000, Q2: 1.0200, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0250, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 8
+Predicted Tunes [Q1: 1.0000, Q2: 1.0400, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0350, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 9
+Predicted Tunes [Q1: 1.0000, Q2: 1.0500, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0450, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+Input Test Image : 10
+Predicted Tunes [Q1: 1.0000, Q2: 1.0500, Q3: 1.0000]
+True Tunes      [Q1: 1.0000, Q2: 1.0550, Q3: 1.0000]
+absolute_diff:      [dQ1: 0.0000, dQ2: 0.0050, dQ3: 0.0000]
+---> VALID PREDICTION 
+
+=======================
+ACCURACY: 7.00 / 10.00 = 0.7000  
+=======================
+
